@@ -1,0 +1,462 @@
+/* ===Global CSS===*/
+* {
+	font-family: 'News Cycle', sans-serif;
+	margin: 0px;
+}
+
+body {
+	background-color: white;
+}
+
+/* === End Global CSS ===*/
+
+/* === Menu === */
+.active {
+	background-color: #7CB532;
+}
+
+.menu {
+	display: table;
+	font-size: 25px;
+	height: 100%;
+	margin: 10px auto 10px auto; /* Do not, for any reason whatsoever, change this line. Yes, this one. */
+	z-index: 100;
+}
+
+.menu ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.menu li {
+	display: inline-block;
+	float: left;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	width: 200px;
+}
+
+.menu-btn a {
+	color: white;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.menu-btn {
+	display: block;
+	background-color: #9AD054;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	width: 100%;
+}
+
+.menu-btn:hover {
+	background-color: #525453;
+}
+
+.menu-btn:hover a {
+	color: white;
+}
+
+.menu-btn:active {
+	background-color: #E30B5D;
+	color: white;
+}
+
+.menu-container {
+	background-color: #9AD054;
+	border-top: 5px solid #EEA3FF;
+	border-bottom: 5px solid #EEA3FF;
+	height: 100%;
+	width: 100%;
+}
+
+.mobile-active {
+	font-weight: bold;
+}
+
+.about-btn:hover {
+	background-color: green;
+}
+
+.serv-btn:hover {
+	background-color: #F87ACB;
+}
+
+.home-btn:hover {
+	background-color: #F8A77A;
+}
+
+.testim-btn:hover {
+	background-color: #FFDA76;
+}
+
+.contact-btn:hover {
+	background-color: #FF9576;
+}
+
+.direct-btn:hover {
+	background-color: #7ACBF8;
+}
+	
+/* === End Menu === */
+
+/* === Front Page Expandable Heading === */
+.static-h2{
+    width: 100%;
+    min-height: 60px;
+    clear: both;
+    background-color: #9AD054;
+    position: relative;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	color: white;
+}
+
+.static-h2 h2 {
+    font-size: 35px;
+	text-align: center;
+}
+
+.static-content {
+    padding: 0 15px 0 15px;
+}
+
+.static-content p {
+    padding: 4px 0 6px 0;
+}
+
+.static-header {
+	display: block;
+}
+	
+
+/* === End Front Page Panel === */
+
+/* === Image Gallery === */
+
+.rslides {
+	z-index: 100;
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 70%;
+	padding: 0;
+	margin: auto;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+
+.rslides_tabs {
+	font-size: 18px;
+	list-style: none;
+	margin: 0 auto 0px;
+	max-width: 540px;
+	
+	text-align: center;
+	width: 100%;
+}
+
+.rslides_tabs li {
+	border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #fff;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.rslides_tabs li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 15px;
+	font-size: 30px;
+	
+
+}
+
+.rslides_tabs a {
+	background: transparent;
+	color: black;
+	display: inline;
+	
+	text-decoration: none;
+}
+
+.rslides_tabs li:first-child {
+	margin-left: 0;
+}
+
+.rslides_tabs .rslides_here a {
+	font-weight: bold;
+ }
+
+.rslides_tabs {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.rslides_tabs li {
+	display: inline;
+	float: none;
+	_float: left;
+	*float: left;
+	margin-right: 5px;
+}
+  
+ /* === End Image Gallery === */
+ 
+ 
+ /* === Contact Form === */
+
+.about1-contact {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #FFF09A;
+	padding: 20px 20px 0 20px;
+}
+
+.about1-contact table, .about1-contact tr, .about1-contact td {
+	border: 1px solid #FFF09A;
+}
+
+.about2-contact {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-color: #FFEF9A;
+	padding: 50px;
+}
+
+.about2-contact table, .about2-contact tr, .about2-contact td {
+	border: 1px solid #FFEF9A;
+}
+
+.about2-contact-curves-off {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.contact-form-container {
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+.contact-form table,.contact-form tr,.contact-form td {
+    border-collapse: collapse;
+	width: 85%;
+	text-align: left;
+}
+
+.contact-form td {
+    padding-right: 200px;
+	vertical-align: top;
+}
+
+.contact-form-container input, .contact-form-container textarea {
+	width: 300px;
+}
+
+ /* === End Contact Form === */
+
+ /* === General CSS === */
+.about1 {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #FFFFAB;
+	display: inline-block;
+	height: 50%;
+	padding: 20px 20px 0 20px;
+}
+.rslides_tabs a {
+     font-size: 50px;
+}
+.rslides_here a {
+     color: green;
+}
+.about1 img {
+	border-radius: 25px;
+}
+
+.about2 {
+    border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-color: #CBD6EA;
+	display: inline-block;
+	padding: 20px 0 20px 20px;
+}
+
+.body-text {
+	border: 0px solid;
+    border-radius: 25px;
+	font-size: 25px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.contact-form td {
+    padding: 2px;
+	vertical-align: top;
+}
+
+.contact-form table {
+	width: 100%;
+	text-align: left;
+}
+
+.content {
+	width: 70%;
+	min-height: 100%;
+	height: auto !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.felicia-headshot {
+	float: left;
+	padding: 0 15px 10px 15px;
+}
+
+.footer {
+	border-top: 5px solid #EEA3FF;
+	bottom: 0;
+	width: 100%;
+	font-size: 20px;
+	background-color: #7CB532;
+	color: white;
+	height: 100px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-address {
+	padding-left: 30%;
+	float: left;
+}
+
+.footer-emailphone {
+	padding-right: 30%;
+	float: right;
+	text-align: right;
+}
+
+iframe {
+	width: 100%;
+	border: 0;
+}
+
+.left-img {
+	float: left;
+	padding: 5px;
+	width: 275px;
+	border-radius: 500px;
+}
+
+.left-quote {
+	text-align: left;
+}
+
+.left-quote img {
+	border-radius: 25px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.page-img-container {
+	padding: 10px;
+	width: 49%;
+}
+
+.page-img {
+	float: left;
+	padding: 10px;
+	width: 50%;
+	border-radius: 500px;
+}
+.quote1, .quote2, .quote3, .quote4 {
+	padding: 15px;
+}
+
+.quote1 {
+	background-color: #EDC3DD;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	height: 90%;
+}
+.quote2 {
+	background-color: #F8FFDC;
+	height: 90%;
+}
+.quote3 {
+	background-color: #FFF2F1;
+	height: 90%;
+}
+.quote4 {
+	background-color: #8FA9CC;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	height: 90%;
+}
+.right-img {
+	float: right;
+	padding: 5px;
+	width: 25%;
+	border-radius: 500px;
+}
+
+.right-quote {
+	text-align: right;
+}
+." + slideClassPrefix + n + "{
+	font-size: 4px;
+}
